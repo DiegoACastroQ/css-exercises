@@ -10,3 +10,16 @@ color: white;
 .No-Me{
 background-color: yellow;
 }
+/* seeing the Solution i see that its used a , between
+the class of the first button and the second button, i didnt use that
+solution because there was only 2 buttons so i change the style to all buttons
+in general but to be fair that wasn't how it should be, so this it how it should be for scalability
+
+
+.Me, .No-Me{
+font-size: 28px;
+font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+
+*/
