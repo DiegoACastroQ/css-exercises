@@ -5,6 +5,40 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+}
+.header, .footer{
+  display:flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.header ul,.footer ul{
+  display: inherit;
+  gap:10px;
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+
+.header a,.footer a,.header a:visited,.footer a:visited{
+  color:gray;
+  text-decoration: none;
+}
+ 
+.footer{
+ background-color: #eee;
+}
+
+.content{
+  align-items: center;
+  display:flex;
+  flex-direction: inherit;
+  gap: 20px;
+  flex:1;
+  justify-content: center;
 }
 
 img {
